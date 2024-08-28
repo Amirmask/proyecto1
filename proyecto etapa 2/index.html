@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Gestion de Productos </h1>
+    <label for="busqueda"><h2> busqueda de productos </h2>
+    <input type="tel" name="" id="busqueda" placeholder="buscar por nombre"></label>
+<table id="tabla-productos">
+    <thead>
+        <tr>
+            <th> id</th>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+        </tr>
+    </thead>
+    <tbody id="tbody-productos"> 
+
+    </tbody>
+</table>
+
+    <form action="formulario-producto">
+        <h3 class="registro"> Registro de Productos  </h3>
+        <label for="nombre">Nombre:
+        <input type="text" id="nombre" name="nombre"></label>
+        <label for="descripcion">Descripcion:
+        <input type="text" id="descripcion" name="descripcion"></label>
+        <label for="precio">Precio:
+        <input type="number" id="precio" name="precio"></label>
+        <label for="cantidad">Cantidad:
+        <input type="number" id="cantidad" name="cantidad"></label>
+    </form>
+
+    <h3>Resumen</h3>
+
+    <h4>Precio total: $0</h4>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>

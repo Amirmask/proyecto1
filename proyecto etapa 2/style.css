@@ -1,0 +1,8 @@
+label{
+    display: block;
+    padding-bottom: 15px;
+}
+th{
+    border: 2px solid red; 
+    padding: 10px;
+}
